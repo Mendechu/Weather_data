@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="aug10.css">
+</head>
+<body>
+
+    
+
+    <nav>
+    <div class="logo">Look Up</div>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+            <a href="#">APIs</a>
+
+            <div class="dropdown-content">
+                <a href="https://restcountries.com/" target="_blank">REST Countries</a>
+                <a href="https://openweathermap.org/" target="_blank">OpenWeather</a>
+            </div>
+        </div>
+        <a href="https://www.linkedin.com/in/alvichowdhury14/" target="_blank">About</a>
+    </div>
+</nav>
+
+
+<div id="container">
+   
+    <h1>Search for your Country Data</h1>
+    <input type="text" id="searchInput" placeholder="Search for a country...">
+    <button id="button" onclick="start()">Search</button>
+
+    </div>
+
+    <div id="showArea"></div>
+
+    <footer>
+    <p>Built with REST Countries API & OpenWeather API</p>
+    <p class="ai-note">
+        Glassmorphism and Navbar dropdown is created with AI assistance.
+    </p>
+</footer>
+    <script src="aug10.js"></script>
+</body>
+</html>

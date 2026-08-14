@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400&display=swap');
+
+
+
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-image: url("./background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    overflow-x: hidden; 
+    
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+    margin-top: 200px;
+    font-weight: 85;
+    text-shadow: 9px 5px 15px rgb(8, 8, 8);
+}
+
+#searchInput {
+    width: 350px;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    outline: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);
+    
+}
+
+button {
+    padding: 20px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-family: Orbitron, sans-serif;
+    background-color: #f78808;
+    margin-left: 15px;
+    box-shadow: 10px 4px 15px rgba(0, 0, 0, 0.9);
+}
+
+#container {
+    
+    padding-top: 60px;
+}
+
+#showArea {
+    width: 100%;
+    text-align: center;
+}
+
+nav {
+    
+    
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+      backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    
+}
+
+.logo {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: lightgray;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.dropdown-content a {
+    display: block;
+    color: black;
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+.country-card {
+    width: 450px;
+    margin: 40px auto;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+
+    border-radius: 20px;
+    color: white;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.country-card img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 100px;
+    padding: 10px;
+    text-align: center;
+
+    background: rgba(20, 30, 80, 0.25);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+
+   
+
+    color: white;
+    font-size: 13px;
+}
+
+footer p {
+    margin: 8px;
+}
+
+.ai-note {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 11px;
+}
