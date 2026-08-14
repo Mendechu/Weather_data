@@ -146,9 +146,10 @@ nav {
 }
 
 footer {
-    margin-top: 100px;
+
     padding: 10px;
     text-align: center;
+    margin-top: auto;
 
     background: rgba(20, 30, 80, 0.25);
     backdrop-filter: blur(15px);
